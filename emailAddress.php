@@ -10,7 +10,7 @@ a@ae.a a@aw.a a@qa.a az@a.a as@a.a ag@a.a ah@a.a aj@a.a ak@a.a al@a.a ap@a.a ao@
 	function returnArrayEmailAddress(){
 		global $arrayEmailAddress;
 		global $str;
-		$s = str_word_count($str, 1, 'àáãç3@.-_4500179268');
+		$s = str_word_count($str, 1, '@.-_1234567890');
 		for ($i = 0; $i <  count($s); $i++) {
 			$val=$s[key($s)];
 			if ($val<> ' ') {
