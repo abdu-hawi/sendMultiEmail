@@ -22,7 +22,7 @@ if (isset($_POST["submit"])){
         $arr = array('abdu.hawi02@gmail.com');
         
         if (!empty($_POST["email"])){
-        	$strWordCount = str_word_count($to, 1, 'àáãç3@.-_124567890');
+        	$strWordCount = str_word_count($to, 1, '@.-_1234567890');
         	for ($i=0; $i < count($strWordCount) ; $i++) { 
         		array_push($arr, $strWordCount[$i]);
         	}
